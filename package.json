@@ -1,0 +1,31 @@
+{
+  "name": "oi-store",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "^4.14.5",
+    "@strapi/plugin-i18n": "4.14.5",
+    "@strapi/plugin-users-permissions": "4.14.5",
+    "@strapi/strapi": "4.14.5",
+    "better-sqlite3": "7.4.6",
+    "mysql": "^2.18.1"
+  },
+  "author": {
+    "name": "Yılmaz Demirci"
+  },
+  "strapi": {
+    "uuid": "0a88aeb0-506b-410f-b6dd-529100587254"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
